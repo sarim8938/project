@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.search-bar {
+    margin-bottom: 2em;
+}
+
+.search-bar input[type="search"] {
+    width: 50%;
+    padding: 0.5em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.search-bar button[type="button"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.podcast-list {
+    margin-bottom: 2em;
+}
+
+.podcast-list h2 {
+    margin-top: 0;
+}
+
+.podcast-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.podcast-list li {
+    margin-bottom: 1em;
+}
+
+.podcast-list li a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.podcast-list li a:hover {
+    color: #23527c;
+}
+
+.categories {
+    margin-bottom: 2em;
+}
+
+.categories h2 {
+    margin-top: 0;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    margin-bottom: 0.5em;
+}
+
+.categories li a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.categories li a:hover {
+    color: #23527c;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
